@@ -10,3 +10,20 @@
 
 - The objective of the ecommerce store systems is to increase the point of customer choice, reduce time used in shopping and efficiency in buying product.
 
+# Login As Admin
+
+email: ahmedelshal@gmail.com
+password: 123456789ahmed
+
+or 
+
+email: ahmedelshal2020@gmail.com
+passowrd: 123456789ahmed
+=======================================
+# Login As User 
+
+email: ahmedelshal@gmail.com
+password: 123456789ahmed
+
+=======================================
+# Thank you
