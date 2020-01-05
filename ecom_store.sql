@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2019 at 04:18 PM
+-- Generation Time: Jan 05, 2020 at 09:38 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.2.15
 
@@ -65,7 +65,8 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`admin_id`, `admin_name`, `admin_email`, `admin_pass`, `admin_image`, `admin_contact`, `admin_country`, `admin_job`, `admin_about`) VALUES
-(5, 'Ahmed Elshal', 'ahmedelshal@gmail.com', '$2y$10$9VFRghEW/3hnQLy0cVPuf..TvaLbCiYjSFm7dgtw.nFMzLbtNP3mC', 'profile.jpg', '01098531786', 'Egypt', 'Software Engineering Student', 'I have a passion for Innovation and Entrepreneurship in Software Engineering  and Data Science.\r\n');
+(5, 'AhmedElshal', 'ahmedelshal@gmail.com', '$2y$10$I4IqpVKbg28rO1g2ijlY5u.8sVYPUkHrwIWLfz9UQgzDyAajBUQ8S', 'profile.jpg', '+201098531786', 'Egypt', 'Software Engineering Student', '   I have a passion for Innovation and Entrepreneurship in Software Engineering  and Data Science.\r\n   '),
+(6, 'ahmedelshal', 'ahmedelshal2020@gmail.com', '$2y$10$VXxWSmRSSUhqnBYh/b/O0erTmc7MKJnMmuFQ0ehuzoQ.bnzEQVMO6', '3.jpg', 'Ahmed Morshedy Elshal', 'Egypt', 'Software Engineering Student', '   Freelance Software Testing Engineer  ');
 
 -- --------------------------------------------------------
 
@@ -478,7 +479,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`customer_id`, `customer_name`, `customer_email`, `customer_pass`, `customer_country`, `customer_city`, `customer_contact`, `customer_address`, `customer_image`, `customer_ip`, `customer_confirm_code`) VALUES
-(5, 'Ahmed Makled', 'makled@gmail.com', '$2y$10$fJBd0sIJuOPq3/18Yx9dOuveJQNnP5lkkEVtc7bds3LWMfXB/FH36', 'Egypt', 'Desouk', '01002742227', ' The village of La Siffer Street of the canal number house 12', 'makled.jpg', '::1', '');
+(5, 'Ahmed Elshal', 'ahmedelshal@gmail.com', '$2y$10$fPU6T7Arm3zdc910IR8jUeZjjQ.ugqY3gGtS0FMao5PYXC5snzNEu', 'Egypt', 'Cairo', '+201098531786', 'cairo', 'Ù¢Ù Ù¡Ù©Ù Ù¥Ù Ù©_Ù¡Ù£Ù Ù¥Ù£Ù¡.jpg', '::1', '');
 
 -- --------------------------------------------------------
 
@@ -512,7 +513,7 @@ CREATE TABLE `customers_addresses` (
 --
 
 INSERT INTO `customers_addresses` (`address_id`, `customer_id`, `billing_first_name`, `billing_last_name`, `billing_country`, `billing_address_1`, `billing_address_2`, `billing_state`, `billing_city`, `billing_postcode`, `shipping_first_name`, `shipping_last_name`, `shipping_country`, `shipping_address_1`, `shipping_address_2`, `shipping_state`, `shipping_city`, `shipping_postcode`) VALUES
-(1, 5, 'Ahmed ', 'Makled', '64', 'The village of La Siffer Street of the canal number house 12', 'The village of La Siffer Street of the canal number house 12', 'Kafr El Sheikh ', 'Desouk', '33657', 'Ahmed', 'Makled', '64', 'Governorate of Matrouh Al Bahr Street House No. 20', 'Governorate of Matrouh Al Bahr Street House No. 20', 'Kafr El Sheikh ', 'Desouk ', '33657'),
+(1, 5, 'Ahmed ', 'Elshal', '64', 'cairo', 'cairo', 'cairo', 'smart city', '11865', 'Ahmed', 'Elshal', '64', 'Cairo', 'cairo', 'Egypt', 'smart city', '11865'),
 (2, 6, 'John', 'Cena', '230', '3560 Powder House Road', '', 'California', 'LOS ANGELES', '90001', 'John', 'Cena', '230', '1814 Quiet Valley Lane', '', 'California', 'LOS ANGELES', ' 90071');
 
 -- --------------------------------------------------------
@@ -1458,7 +1459,7 @@ ALTER TABLE `about_us`
 -- AUTO_INCREMENT for table `admins`
 --
 ALTER TABLE `admins`
-  MODIFY `admin_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `admin_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `boxes_section`
