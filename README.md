@@ -18,7 +18,8 @@ password: 123456789ahmed
 or 
 
 email: ahmedelshal2020@gmail.com
-passowrd: 123456789ahmed
+password: 123456789ahmed
+
 =======================================
 # Login As User 
 
